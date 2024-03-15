@@ -1,0 +1,7 @@
+body{
+    scroll-behavior: smooth;
+    
+}
+.card{
+    border-radius: 20px;
+}

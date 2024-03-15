@@ -1,0 +1,19 @@
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+}
+
+.share-btn:hover{
+    cursor: pointer;
+}
+
+.btn-dark:hover{
+    transform: scale(1.09);
+    padding: 1.5;
+    margin: 0;
+}
+
+.btn-danger:hover{
+    transform: scale(1.1);
+}
+

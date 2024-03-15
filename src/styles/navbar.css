@@ -1,0 +1,17 @@
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-item:hover{
+    text-decoration: underline 2px solid red;
+    transform: scale(1.1);
+}
+
+.nav-item:active{
+    text-decoration-color: red ;
+}
+
+.light-dark-btn{
+    margin: 4px;
+}

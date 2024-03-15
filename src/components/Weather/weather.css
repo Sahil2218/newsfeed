@@ -1,0 +1,153 @@
+.container-1 {
+    width: 100%;
+    max-width: 607px;
+    height: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.top-bar input {
+    width: 100%;
+    max-width: 360px;
+    height: 60px;
+    margin-bottom: 20px;
+    background: #ebfffc;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 20px;
+    color: #626262;
+    font-size: 24px;
+    font-weight: 450;
+}
+
+.search-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: #ebfffc;
+    border-radius: 30px;
+}
+
+.btn-btn-outline {
+    border: none;
+    margin-top: px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.weather-img {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 100px;
+    font-weight: 350;
+}
+
+.weather-location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-size: 65px;
+    font-weight: 350;
+}
+
+.data-container {
+    margin-top: 50px;
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.element {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+.data {
+    font-size: 30px;
+    font-weight: 350;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 350;
+}
+
+.icon {
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .container-1 {
+        border-radius: 0;
+    }
+
+    .top-bar {
+        padding-top: 10px;
+    }
+
+    .top-bar input {
+        padding-left: 10px;
+        font-size: 18px;
+    }
+
+    .search-icon,
+    .btn-btn-outline {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+    .weather-temp {
+        font-size: 60px;
+    }
+
+    .weather-location {
+        font-size: 40px;
+    }
+
+    .data-container {
+        margin-top: 20px;
+    }
+
+    .element {
+        gap: 8px;
+    }
+
+    .data {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .icon {
+        margin-top: 10px;
+    }
+}
